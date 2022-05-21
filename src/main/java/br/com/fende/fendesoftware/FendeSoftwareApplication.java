@@ -8,6 +8,10 @@ public class FendeSoftwareApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FendeSoftwareApplication.class, args);
+		
+		
 	}
+	
+	
 
 }
