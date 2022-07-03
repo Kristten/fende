@@ -13,6 +13,9 @@ public interface PessoaService {
 
     Pessoa cadastrar(Pessoa pessoaModel);
 
-    Pessoa
+    Pessoa editar(UUID id, Pessoa alterarPessoaModel);
 
+    Pessoa remover(UUID id);
 }
+
+
